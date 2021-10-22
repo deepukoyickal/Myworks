@@ -1,0 +1,9 @@
+<?php
+session_start();
+$day=date('Y-m-d');
+$_SESSION["dep"]=$_POST['department'];
+$_SESSION["day"]=$day;
+$_SESSION["sem"]=$_POST['sem'];
+	include_once('teacher.php');
+exit();
+ ?>

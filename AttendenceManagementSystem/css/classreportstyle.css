@@ -1,0 +1,112 @@
+.box1
+		{
+			position: relative;
+			top: 35%;
+			
+			width: 100%;
+			height: auto;
+			background-color: #100F67;
+			
+		}
+		td
+		{
+			text-align: center;
+			border-width: 0;
+			background: #74E6C4;
+		}
+	.box1 td
+	{
+		width: 120px;
+	}
+		#full
+		{
+			color: #288B07;
+		}
+		#half
+		{
+			color: #0F0BF5;
+		}
+		#absent
+		{
+			color: red;
+		}
+		th
+		{
+			color: #E9E9F2;
+			background:#010109;
+		}
+		.all
+		{
+			position:  absolute;
+			top: 5%;
+			left: 5%;
+			width: 65%;
+			background-color: #1824A8;
+		}
+		.container
+		{
+			position: relative;
+			top: 10%;
+			width: 90%;
+			padding: 5px;
+			margin: 10px auto;
+			background: #434B9F;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
+		.box
+		{
+			width: 200px;
+			height: 70px;
+			font-size: 20px;
+			align-content: center;
+			background:none;
+			margin: 0px;
+			transition: .1s;
+			text-align: center;
+		}
+		.inb
+		{
+			border width: 1px solid #CD4FB8;
+			text-align: center;
+			width: 90%;
+			height: 40%;
+		}
+		#submit,#reset
+		{
+			width: 180px;
+			height: 30px;
+			border-radius: 15px;
+			border-width: 0;
+			 font-weight: bolder;
+
+		}
+		#submit:hover,#reset:hover
+		{
+			transform: scale(1.1);
+			z-index: 2;
+			font-weight: bolder;
+		}
+		#submit
+		{
+			width: 180px;
+			background-color: #08F60F;
+		}
+		#reset
+		{
+			background-color: #FD072C;
+		}
+		#numberhead
+		{
+			height: 40px;
+			background: #9AE0A3;
+		}
+		#numberhead input[type=text]
+		{
+			text-align: center;
+			height: 20px;
+			border: none;
+			background: #70EF81;
+
+		}

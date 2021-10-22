@@ -1,0 +1,110 @@
+body
+		{
+			background: #66fcf1;
+		}
+		.box1
+		{
+			position: absolute;
+			left: 30%;
+			top: 30%;
+			width: 40%;
+			height: 40%;
+			background-color: #efe2ba; 
+			border-top-right-radius: 20px;
+			border-bottom-left-radius: 20px;
+			border:1px solid #4056a1;
+			
+		}
+		.input1
+		{
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			text-align: center;
+			padding: 10px;
+		}
+		label
+		{
+			font-family: timesnewroman;
+			font-weight: bold;
+			font-size: 30px;
+			padding: 10px;
+		}
+		#course1
+		{
+			width: 60%;
+			height: 30%;
+			text-align: center;
+			font-family: timesnewroman;
+			font-size: 20px;
+			font-weight: bold;
+			background: #c2cad0;
+			color: #080808;
+			padding: 10px;
+			border-width: 2px;
+			border-color: #4D0BF5;
+			border-radius: 5px;
+
+		}
+		/*#course1:hover
+		{
+			transform: scale(1.2);
+			z-index: 2;
+			background: #0BF526;
+			font-weight: bold;
+		}*/
+		#sem1
+		{
+			width: 20%;
+			font-family: timesnewroman;
+			font-size: 20px;
+			font-weight: bold;
+			background: #c2cad0;
+			color: #080808;
+			padding: 10px;
+			border-width: 2px;
+			border-color: #4D0BF5;
+			border-radius: 5px;
+		}
+		/*#sem1:hover
+		{
+			transform: scale(1.2);
+			z-index: 2;
+			background: #0BF526;
+			font-weight: bold;
+		}*/
+		#back1
+		{
+			position: absolute;
+			left: 20%;
+			top: 95%;
+			width: 25%;
+			height: 35px;
+			background: #8B1633;
+			border: 2px solid black;
+			font-family: timesnewroman;
+			font-weight: bold;
+		}
+		#enter1
+		{
+			position: absolute;
+			left: 50%;
+			top: 95%;
+			width: 25%;
+			height: 35px;
+			background: #17FA0B;
+			border: 2px solid black;
+			font-family: timesnewroman;
+			font-weight: bold;
+		}
+		td
+		{
+			text-align: center;
+			padding: 10px;
+		}
+		#enter1:hover,#back1:hover
+		{
+			transform: scale(1.3);
+			z-index: 2;
+			border-radius: 10px;
+		}
